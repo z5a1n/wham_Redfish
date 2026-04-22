@@ -1343,7 +1343,7 @@ Type objective_function<Type>::operator() ()
   if(sum_do_post_samp == 0){
     ADREPORT(log_NAA_rep);
     ADREPORT(log_SSB);
-    vector<Type> log_SSB_LRP = log_SSB - log_SSB(16);
+    vector<Type> log_SSB_LRP = log_SSB_all - log_SSB_all(16);
     ADREPORT(log_SSB_LRP);
     ADREPORT(log_SSB_all);
     //ADREPORT(log_F);
