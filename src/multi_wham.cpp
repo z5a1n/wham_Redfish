@@ -1343,6 +1343,7 @@ Type objective_function<Type>::operator() ()
   if(sum_do_post_samp == 0){
     ADREPORT(log_NAA_rep);
     ADREPORT(log_SSB);
+    ADREPORT(log_SSB-log_SSB[17]);
     ADREPORT(log_SSB_all);
     //ADREPORT(log_F);
     ADREPORT(log_FAA);
